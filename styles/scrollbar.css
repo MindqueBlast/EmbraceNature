@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: linear-gradient(var(--ghost-white), #C5C5C5);
+}
+
+::-webkit-scrollbar-thumb {
+	background: linear-gradient(var(--light-green), var(--darker-light-green));
+}
