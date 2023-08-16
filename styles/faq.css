@@ -1,0 +1,33 @@
+.faq {
+	padding: 50px;
+	background-color: var(--darker-light-green);
+	color: var(--ghost-white);
+	text-align: center;
+}
+
+.faq-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.faq-item {
+	flex-basis: calc(50% - 20px);
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: var(--licorice);
+	box-shadow: 0 4px 8px var(--darker-licorice);
+	border-radius: 5px;
+	text-align: left;
+}
+
+.faq-item h3 {
+	font-size: 20px;
+	margin-top: 0;
+}
+
+.faq-item p {
+	font-size: 16px;
+	margin-bottom: 0;
+}
