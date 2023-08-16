@@ -1,0 +1,51 @@
+@keyframes slideIn-Up {
+	0% {
+		transform: translateY(100px);
+	}
+
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+@keyframes slideIn-Left {
+	0% {
+		transform: translateX(-100px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+@keyframes slideIn-Right {
+	0% {
+		transform: translateX(100px);
+	}
+
+	100% {
+		transform: translateX(0px);
+	}
+}
+
+.scroll-element {
+	opacity: 0;
+	transition: 500ms all;
+}
+
+/*These will be applied when element is in view*/
+.scrolled {
+	opacity: 1;
+}
+
+.scrolled.left {
+	animation: slideIn-Left 500ms ease-in-out;
+}
+
+.scrolled.right {
+	animation: slideIn-Right 500ms ease-in-out;
+}
+
+.scrolled.up {
+	animation: slideIn-Up 500ms ease-in-out;
+}
