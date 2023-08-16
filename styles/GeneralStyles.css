@@ -1,0 +1,45 @@
+:root {
+	--text-font: 'Google Sans';
+	--heading-font: 'Raleway';
+	--licorice: #261c15;
+	--darker-licorice: #180f0a;
+	--light-green: #61e786;
+	--darker-light-green: #4e9e5d;
+	--blue-crayola: #3772ff;
+	--darker-blue-crayola: #2053b2;
+	--tomato: #ff4b3e;
+	--darker-tomato: #b5372e;
+	--azure: #357ded;
+	--darker-azure: #124ea3;
+	--ghost-white: #f1f1f1;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	margin: 0;
+	width: 100vw;
+	overflow-x: hidden;
+	font-family: var(--text-font);
+	background: linear-gradient(var(--light-green), var(--tomato));
+	color: var(--ghost-white);
+}
+
+.content {
+	padding: 50px;
+	text-align: center;
+}
+
+.section-heading {
+	font-size: 24px;
+	margin-bottom: 20px;
+	font-family: var(--heading-font);
+	text-shadow: 0px 0px 30px #CCA623aa;
+}
+
+.whitespace {
+	width: 100%;
+	height: 100px;
+}
