@@ -6,7 +6,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 350px;
+	height: 550px;
 	background-color: var(--licorice);
 	-webkit-clip-path: ellipse(100% 80% at 50% 0%);
 	animation: pulse 5s infinite ease-in-out;
