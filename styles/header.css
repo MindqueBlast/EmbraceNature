@@ -1,0 +1,51 @@
+.header {
+	text-align: center;
+	font-family: var(--heading-font);
+	padding: 50px 0;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 350px;
+	background-color: var(--licorice);
+	-webkit-clip-path: ellipse(100% 80% at 50% 0%);
+	animation: pulse 5s infinite ease-in-out;
+	transition: 1s ease-in-out;
+}
+
+.header h1 {
+	background: -webkit-linear-gradient(45deg, #CCA623, var(--darker-light-green));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow: 0px 0px 10px #CCA623aa;
+}
+
+.header:hover {
+	-webkit-clip-path: ellipse(100% 90% at 50% 0%);
+}
+
+.header::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Waterfall_in_forest.jpg/640px-Waterfall_in_forest.jpg');
+	opacity: 0.6;
+	z-index: -1;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
