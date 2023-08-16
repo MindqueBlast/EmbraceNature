@@ -1,0 +1,27 @@
+.destination {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}
+
+.destination img {
+	width: 30vh;
+	height: 30vh;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.destination-info {
+	text-align: left;
+}
+
+.destination h3 {
+	margin: 0;
+	font-size: 20px;
+	font-family: var(--heading-font);
+}
+
+.destination p {
+	margin-top: 10px;
+	font-size: 14px;
+}
